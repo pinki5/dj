@@ -1,4 +1,4 @@
-// Student Database: Linear Search and Binary Search (using realloc)
+
 #include <iostream>
 #include <cstdlib>
 using namespace std;
