@@ -14,7 +14,7 @@ int n = 0, searchId, i, j;
 char ch;
 do
 {
-s = (Student *)realloc(s, (n + 1) * sizeof(Student)); // grow by one
+s = (Student *)realloc(s, (n + 1) * sizeof(Student)); 
 cout << "\nEnter Student ID: ";
 cin >> s[n].id;
 cout << "Enter Name: ";
