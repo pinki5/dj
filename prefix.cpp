@@ -76,7 +76,7 @@ string infixToPrefix(string infix)
 reverse(infix.begin(), infix.end());
 for (size_t i = 0; i < infix.length(); i++)
 {
-if (infix[i] == '(';
+if (infix[i] == '(')
 infix[i] = ')';
 else if (infix[i] == ')')
 infix[i] = '(';
